@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.contenido{
+  height: 100vh;
+  background: url(ciudad.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header{
+   justify-content: space-between;
+   display: flex;
+   height: 70px;
+}
+.logo{
+    width: 120px;
+    height: 70px;
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+}
+nav{   
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       width: 500px;
+       
+}
+nav a{
+    
+    padding: 30px;
+    box-shadow: 20px 20px 20px black;
+    color: white;
+    text-decoration: none;
+}
+.section{
+    height: 500px;
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    margin: auto;
+}
+.contenido_section{
+    color: white;
+    width: 390px;
+    font-size: 30px;
+    padding-top: 180px;
+    margin-left: 20px;
+}
+.parrafo_lorem{
+    margin-top: 100px;
+    width: 400px;
+    font-size: 20px;
+}
+
+.form{
+    height: 400px;
+    border-radius: 15px;
+    width: 400px;
+    margin-top: 50px;
+    margin-left: 50px;
+    background-color: black;
+}
+
+#buton{
+    display: block;
+    margin-top: 15px;
+    margin-left: 100px;
+    border-radius: 10px;
+    height: 40px;
+    width: 50%;
+}
+
+#text{
+    height: 35px;
+    margin-left: 30px;
+    margin-top: 20px;
+    width: 75%;
+    border-bottom: 2px solid red;
+    background-color: black;
+}
+#password{
+    margin-left: 30px;
+    height: 35px;
+    background-color: black;
+    margin-top: 20px;
+    width: 75%;
+    border-bottom: 2px solid red;
+    display: block;
+}
+#login{
+    width: 50%;
+    height: 40px;
+    background-color: #FDD36A;
+    margin-left: 100px;
+    display: block;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.parrafo_form{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding-top: 20px;
+}
+
+.parrafo_form a{
+    padding-top: 10px;
+    color: red;
+}
+.parrafo_form p{
+    color: white;
+    font-size: 18px;
+}
+@media(max-width:412px){
+
+ .contenido{
+    height: 150vh;
+ }
+   .contenido nav{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 130px;
+    right: 215px;
+   } 
+  
+   .parrafo_lorem{
+    width: 200px;
+   }
+  .contenido_section{
+    width: 210px;
+     margin-top: 50px;
+  }
+
+   .form{
+   
+     position: relative;
+     right: 240px;
+     top: 700px;
+     width: 300px;
+   }
+  #buton{
+    width: 260px;
+    margin-left: 10px;
+     display: block;
+    position: relative;
+  }
+   #login{
+    width: 260px;
+    margin-left: 10px;
+    display: block;
+   }
+}
